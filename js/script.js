@@ -15,7 +15,8 @@ $.getJSON( "http://www.geekwise.org/data.json")
                 return [value];
     });
 
-    
+        write_json();
+
     
     
     
@@ -77,7 +78,6 @@ document.addEventListener('DOMContentLoaded',function(event){
     console.log($);
 
     get_json_data();
-    write_json();
     
     
     
